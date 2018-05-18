@@ -1,0 +1,111 @@
+
+nav .brand-logo
+{
+  height:60px;
+}
+body{
+  background: url(../images/bg.png);
+  background-repeat: repeat;
+}
+  
+label{
+    color:white !important;
+  }
+
+.myclass{
+  margin-top: 8%; 
+  margin-bottom: 8%;
+  width:auto;
+  border-radius: 0px 10px;
+} 
+.headername{
+    position: relative;
+    bottom: 25px;
+    font-size : 1.5rem;
+}
+.mynewclass{
+  border-radius: 0px 25px 25px 0px;
+  background-color: #00acc1;
+  color:white;
+  margin-top: 8%;
+  padding: 2%;
+  width: auto;
+  box-shadow: 25px 25px 25px #888888
+
+}
+.mytextclass{
+  color: white;
+}
+
+.borderclass{
+  border-radius: 10px;
+}
+.right{
+  vertical-align: right;
+  width: 525px;
+}
+
+.nav-mar{
+  margin-left: 4%;
+}
+.newclass{
+	margin-top: 10% !important;
+}
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected,.picker__close, .picker__today ,.picker__weekday-display,
+.picker__date-display  {
+background-color:#00acc1;
+}
+
+.picker__day.picker__day--today 
+{color:#00acc1;
+}
+.picker__close, .picker__today{
+color:#fff;}
+
+
+  input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    border-bottom-color:#fff !important  }   
+
+.text-colo{
+  color:#fff;
+  margin-left: 5%;
+}
+
+  .img-pad{
+    margin-left:5%;
+  }
+  .mar-upload{
+    margin-left: 1%;
+  }
+  	
+@media only screen and (max-width: 992px){
+.btn, .btn-large, .btn-flat {
+margin:0px 1px 0px 1px;
+}
+#shail{
+display:none;
+}
+.headername{
+position: relative;
+bottom: 0px;
+margin-left: 5%;
+font-size: 1.5rem;
+}
+}
+  
+@media only screen and (max-width : 601px) {
+  #shail{
+    display:none;
+  }
+  .headername{
+    position: relative;
+    bottom: 3px;
+    margin-left: 5%;
+    font-size: 1.3rem;
+}
+}
+@media only screen and (max-width : 401px){
+  html{
+    font-size:12px;
+  }
+}

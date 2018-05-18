@@ -1,0 +1,185 @@
+.text-colo{
+	color: #00695c;
+	font-size:15px;
+}
+
+.mybg{
+  height: 200px;
+  }
+  .result-card{
+	min-height: 300px;
+	max-height:300px;
+}
+.result-card .card-image{
+	height: 175px;
+	width: inherit;
+}
+.result-card .card-content{
+	vertical-align: middle;
+}
+.result-card .card-image img{
+	height: inherit;
+}
+
+.nav-mar{
+  margin-left: 4%;
+}
+.buttoncolor{
+	color: #00695c;
+}
+.right{
+vertical-align: right;
+width: 525px;
+}
+.newclass{
+margin-top: 1% !important;
+}
+.btn, .btn-large{
+background-color: #ee6e73;
+}
+
+a{
+	color:#ee6e73;
+}
+.img-size{
+height : 200px;
+width : 200px;
+}
+
+.headername{
+position: relative;
+bottom: 25px;	
+font-size : 1.5rem;
+}
+
+.card .card-action{
+	padding: 10px 1px !important;
+}
+
+.pag-align{
+margin-top: 5%;
+
+}
+.myclass{
+margin-top: 2%;
+}
+
+body{
+background: url(../images/bg.png);
+background-repeat: repeat;
+}
+.card .card-action a{
+	margin: 0px;
+}
+
+label{
+color:white !important;
+}
+input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+border-bottom-color:#fff !important  }   
+.pad-row{
+background-color: #ee6e73; 
+margin-top: 5%;
+padding: 2%;
+}
+.search-col{
+color: #ee6e73;
+float: right;
+}
+.card .card-title{
+font-size: 14px;
+}
+.card .card-content{
+font-size: 13px;
+text-align: center;
+padding: 15px 0px;
+}
+.container{
+width:80%;	
+}
+.pagemar{
+margin-left: 10%;
+}
+
+.mar-bot{
+margin-bottom:  10%;	
+}
+.mar-modal{
+	padding:0% 5%;
+}
+.pad-topm{
+	padding-top: 5%;
+}
+.dropdown-content li > a, .dropdown-content li > span
+{
+	color: red;
+}
+
+
+nav .brand-logo
+{
+  height:60px;
+}
+
+@media only screen and (max-width: 992px){
+.btn, .btn-large, .btn-flat {
+margin:0px 1px 0px 1px;
+}
+#shail{
+display:none;
+}
+.headername{
+position: relative;
+bottom: 0px;
+margin-left: 5%;
+font-size: 22px;
+}
+
+form{
+	margin-top: 5%;
+}
+
+.mybg{
+  height: 180px;
+}
+}
+@media only screen and (max-width : 927px) {
+.btn2{
+	margin-top: 5%;
+}
+}
+
+@media only screen and (max-width : 601px) {
+#shail{
+display:none;
+}
+.headername{
+position: relative;
+bottom: 0px;
+margin-left: 5%;
+font-size: 1.4rem;
+}
+
+.mybg{
+  height: 180px;
+}
+.btn, .btn-large, .btn-flat {
+margin-top: 10%;
+}
+form{
+	margin-top: 15%;
+}
+}
+@media only screen and (max-width : 401px){
+	html{
+		font-size:12px;
+	}
+
+.card .card-content{
+font-size: 12px;
+}
+
+.card .card-title{
+font-size: 12px;
+}
+}

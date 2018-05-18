@@ -1,0 +1,140 @@
+
+nav .brand-logo
+{
+  height:60px;
+}
+body{
+  background: url(../images/bg.png);
+  background-repeat: repeat;
+}
+.headername{
+  position: relative;
+  bottom: 25px;
+  font-size : 1.5rem;
+}
+
+
+.right{
+  vertical-align: right;
+  width: 525px;
+}
+.thiscard .right{
+  width: inherit;
+}
+.paddingclass{
+  margin-top: 0.25%;
+}
+
+.mar-top{
+    margin-top: 5%;
+}
+
+.mymargin{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top:3%;
+}
+
+.row .col{
+  float: none;
+}
+
+.row{
+  float: none;
+}
+
+label{
+  color:white !important;
+}
+  input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+  border-bottom-color:#fff !important  } 
+  .mar-left{
+    margin-left: 20%;
+  }
+
+  .pad-top{
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .mar-bot{
+    margin-bottom: 2.5%;
+  }
+  
+.nav-mar{
+  margin-left: 4%;
+}
+input[type=text].invalid, input[type=text]:focus.invalid, input[type=password].invalid, input[type=password]:focus.invalid, input[type=email].invalid, input[type=email]:focus.invalid, input[type=url].invalid, input[type=url]:focus.invalid, input[type=time].invalid, input[type=time]:focus.invalid, input[type=date].invalid, input[type=date]:focus.invalid, input[type=datetime-local].invalid, input[type=datetime-local]:focus.invalid, input[type=tel].invalid, input[type=tel]:focus.invalid, input[type=number].invalid, input[type=number]:focus.invalid, input[type=search].invalid, input[type=search]:focus.invalid, textarea.materialize-textarea.invalid, textarea.materialize-textarea:focus.invalid
+{
+  box-shadow: 0;
+border-bottom : 0px;
+}
+.margin-top{
+  padding: 0%;
+}
+
+.margin-top1{
+  padding: 0%;
+}
+@media only screen and (max-width: 992px){
+
+#shail{
+display:none;
+}
+.headername{
+position: relative;
+bottom: 0px;
+margin-left: 5%;
+font-size: 22px;
+}
+.dis-in{
+  display: inline-block;
+}
+.margin-top{
+  padding: 4%;
+}
+
+.margin-top1{
+  padding: 1%;
+}
+}
+@media only screen and (max-width : 635px) {
+.btn3{
+  margin-top: 5%;
+}
+  }
+
+@media only screen and (max-width : 601px) {
+  #shail{
+    display:none;
+  }
+  .headername{
+    position: relative;
+    bottom: 3px;
+    margin-left: 5%;
+    font-size : 1.4rem;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width : 406px) {
+  #shail{
+    display:none;
+  }
+  .headername{
+    position: relative;
+    bottom: 3px;
+    margin-left: 5%;
+    font-size : 1.4rem;
+  }
+  html
+  {
+    font-size: 10px;
+  }
+.btn2{
+  margin-top: 5%;
+}
+}
